@@ -12,10 +12,13 @@ int main()
     int N;
     printf("Enter the value for N\n");
     scanf("%d", &N);
-
-    //Write your code here
+    int sum=0;
+   for(int i=1;i<N;i++)
+   {
+       sum+=i;
+   }
        
-       
+   printf("%d",sum);    
        
        
        
